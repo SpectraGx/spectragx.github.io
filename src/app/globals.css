@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Default Dark Theme (PRD Specs) */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 100%;
+    --card: 240 10% 5.9%;
+    --card-foreground: 0 0% 100%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 337 100% 46%; /* #E9005A */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 186 100% 50%; /* #00E5FF */
+    --secondary-foreground: 240 10% 3.9%;
+    --muted: 240 5% 15%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 55 100% 50%; /* #FFEA00 */
+    --accent-foreground: 240 10% 3.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5% 15%;
+    --input: 240 5% 15%;
+    --ring: 337 100% 46%;
+    --radius: 0.75rem;
+  }
+
+  .light {
+    /* Optimized Light Theme for Legibility */
+    --background: 240 5% 98%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 337 100% 46%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 186 100% 30%; /* Darkened Cyan for white bg */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 5% 90%;
+    --muted-foreground: 240 5% 30%; /* Much darker gray for text */
+    --accent: 45 100% 30%; /* Darkened Yellow/Gold for visibility */
+    --accent-foreground: 240 10% 3.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5% 85%;
+    --input: 240 5% 85%;
+    --ring: 337 100% 46%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body selection:bg-primary/30;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline uppercase tracking-tighter;
+  }
+}
+
+@layer components {
+  .neon-magenta {
+    text-shadow: 0 0 15px rgba(233, 0, 90, 0.6);
+  }
+  .light .neon-magenta {
+    text-shadow: 0 0 8px rgba(233, 0, 90, 0.2);
+  }
+  
+  .neon-cyan {
+    text-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
+  }
+  .light .neon-cyan {
+    text-shadow: 0 0 8px rgba(0, 229, 255, 0.2);
+  }
+
+  .neon-border-magenta {
+    box-shadow: 0 0 15px rgba(233, 0, 90, 0.3);
+  }
+  
+  .grunge-button {
+    @apply relative overflow-hidden transition-all active:scale-95;
+    clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%);
+  }
+
+  .texture-halftone {
+    background-image: radial-gradient(rgba(0,0,0,0.05) 1px, transparent 0);
+    background-size: 20px 20px;
+  }
+  .dark .texture-halftone {
+    background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 0);
+  }
+
+  .pixel-cluster {
+    @apply absolute w-2 h-2 bg-primary/40;
+    box-shadow: 4px 4px 0 rgba(233, 0, 90, 0.2), -4px -4px 0 rgba(0, 229, 255, 0.2);
+  }
+
+  .torn-edge-bottom {
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-1.42,1200,3.48V0Z' fill='%23000'/%3E%3C/svg%3E");
+    mask-size: 100% 100%;
+  }
+}
+
+.brush-stroke {
+  @apply text-primary-foreground;
+  background: linear-gradient(120deg, transparent 0%, var(--primary) 0%, var(--primary) 100%, transparent 100%);
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+.diagonal-lines {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(233, 0, 90, 0.05) 10px,
+    rgba(233, 0, 90, 0.05) 20px
+  );
+}
+
+.glass-card {
+  @apply bg-card/80 backdrop-blur-md border border-white/10;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px currentColor;
+}

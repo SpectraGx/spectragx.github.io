@@ -1,0 +1,35 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Atmospheric cyberpunk cityscape background",
+      "imageUrl": "https://picsum.photos/seed/neoncity/1920/1080",
+      "imageHint": "cyberpunk city"
+    },
+    {
+      "id": "project-1",
+      "description": "High-tech gaming interface",
+      "imageUrl": "https://picsum.photos/seed/scifi-ui/800/600",
+      "imageHint": "gaming interface"
+    },
+    {
+      "id": "project-2",
+      "description": "Abstract digital terrain",
+      "imageUrl": "https://picsum.photos/seed/digital-landscape/800/600",
+      "imageHint": "digital terrain"
+    },
+    {
+      "id": "project-3",
+      "description": "Futuristic virtual reality arena",
+      "imageUrl": "https://picsum.photos/seed/vr-arena/800/600",
+      "imageHint": "virtual reality"
+    },
+    {
+      "id": "avatar",
+      "description": "Futuristic programmer avatar",
+      "imageUrl": "https://picsum.photos/seed/neon-dev/400/400",
+      "imageHint": "programmer portrait"
+    }
+  ]
+}
