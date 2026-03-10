@@ -33,18 +33,23 @@ export const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-2">
-          {/* Language Toggle */}
+          {/* Language Toggle*/}
           <Button 
             variant="outline" 
-            className={`h-9 px-3 font-headline text-[10px] tracking-widest border transition-all ${theme === 'light' ? 'border-zinc-300 text-zinc-900' : 'border-white/5 hover:border-primary/50 text-white'}`}
+            className={`h-9 px-3 font-headline text-[10px] tracking-widest border transition-all ${theme === 'light' ? 'bg-transparent border-zinc-300 text-zinc-900 hover:bg-zinc-200' : 'bg-transparent border-white/5 hover:border-primary/50 text-white'}`}
             onClick={toggleLang}
           >
             <Languages className="w-3.5 h-3.5 mr-2 opacity-70" />
             {lang}
           </Button>
 
-          {/* Theme Toggle */}
-          <Button variant="outline" size="icon" className="h-9 w-9 hover:text-primary" onClick={toggleTheme}>
+          {/* Theme Toggle*/}
+          <Button 
+            variant="outline" 
+            size="icon" 
+            className={`h-9 w-9 transition-all ${theme === 'light' ? 'bg-transparent border-zinc-300 text-zinc-900 hover:bg-zinc-200' : 'bg-transparent border-white/5 text-white hover:text-primary'}`} 
+            onClick={toggleTheme}
+          >
             {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </Button>
         </div>
