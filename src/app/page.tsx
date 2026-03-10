@@ -51,7 +51,7 @@ export default function SpectraGxDashboard() {
       image: "/magicalflavour.png",
       videoHover: "/gameplay/magical-hover.mp4",
       imageHint: "Magical Flavour Frontpage",
-      link: "#"
+      link: "https://spectragx.itch.io/magical-flavour"
     },
     {
       id: 2,
@@ -63,7 +63,7 @@ export default function SpectraGxDashboard() {
       image: "/bubbleabyss.png",
       videoHover: "/gameplay/bubble-hover.mp4",
       imageHint: "BUBBLE ABYSS Frontpage",
-      link: "#"
+      link: "https://elxavi.itch.io/bubble-abyss"
     },
     {
       id: 3,
@@ -74,7 +74,7 @@ export default function SpectraGxDashboard() {
       tags: ["Unity", "C#", "Kickstarter"],
       image: "/plushout.png",
       imageHint: "PlushOut Frontpage",
-      link: "#"
+      link: "https://www.kickstarter.com/projects/plushcraftstudios/plushout"
     }
   ];
 
@@ -127,12 +127,16 @@ export default function SpectraGxDashboard() {
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
+              <Link href="/projects" className="hover:text-primary transition-colors">
               <Button size="lg" className="grunge-button bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-headline">
                 {lang === 'EN' ? 'VIEW PROJECTS' : 'VER PROYECTOS'} <ChevronRight className="ml-2 w-5 h-5" />
               </Button>
+              </Link>
+              <Link href="#contact" className="hover:text-primary transition-colors">
               <Button size="lg" variant="outline" className={`border-border hover:bg-muted px-8 py-6 text-lg font-headline`}>
                 {lang === 'EN' ? "LET'S CHAT" : 'CHARLEMOS'}
               </Button>
+              </Link>
             </div>
           </div>
           
@@ -215,9 +219,11 @@ export default function SpectraGxDashboard() {
                 <span className="font-code text-secondary uppercase tracking-widest text-sm mb-2 block">{lang === 'EN' ? 'Recent Creations' : 'Creaciones Recientes'}</span>
                 <h2 className="text-5xl md:text-7xl font-headline tracking-tighter">{lang === 'EN' ? 'PROJECTS' : 'PROYECTOS'}</h2>
               </div>
+                <Link href="/projects" className="hover:text-primary transition-colors">
               <Button variant="outline" className="hover:text-primary font-headline group self-start md:self-end">
                 {lang === 'EN' ? 'EXPLORE ALL' : 'EXPLORAR TODO'} <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
+              </Link>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

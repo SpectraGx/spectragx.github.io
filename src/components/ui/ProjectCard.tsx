@@ -17,6 +17,7 @@ interface ProjectCardProps {
     image: string;
     videoHover?: string;
     imageHover?: string;
+    link: string;
   };
   lang: string;
   theme: string;
@@ -106,9 +107,11 @@ export const ProjectCard = ({ project, lang, theme }: ProjectCardProps) => {
         <p className="text-muted-foreground text-sm mb-6 flex-1">
           {project.description}
         </p>
+        <a href={project.link} target="_blank" rel="noopener noreferrer" className="mt-auto">
         <Button className="w-full bg-muted border border-border hover:bg-primary group/btn text-foreground">
           {lang === 'EN' ? 'VIEW DETAILS' : 'VER DETALLES'} <ChevronRight className="ml-auto w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
         </Button>
+        </a>
       </CardContent>
     </Card>
   );

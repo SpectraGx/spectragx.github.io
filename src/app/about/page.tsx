@@ -160,16 +160,61 @@ export default function AboutPage() {
                 {
                   role: "Lead Developer",
                   company: "PlushCraftStudios",
-                  duration: "2025 - Presente",
-                  points: [
-                    "Arquitectura de sistemas de interacción para experiencias multijugador.",
-                    "Implementación de mecánicas núcleo para prototipos de alto rendimiento."
-                  ]
+                  duration: lang === 'EN' ? "2025 - Present" : "2025 - Presente",
+                  points: lang === 'EN'
+                    ? [
+                        "Founder and lead developer of the studio, focused on creating gameplay experiences based on fun and controlled chaos.",
+                        "Led development of projects like PlushOut and Magical Flavour, with a focus on gameplay programming, systems architecture, and game vision.",
+                        "Organized development pipelines, task management, and led small development teams.",
+                        "Represented the studio and projects at video game events, exhibitions, and networking spaces within the industry."
+                      ]
+                    : [
+                        "Fundador y líder de desarrollo del estudio, enfocado en crear experiencias de gameplay basadas en la diversión y el caos controlado.",
+                        "Dirección del desarrollo de proyectos como PlushOut y Magical Flavour, con un enfoque en programación de gameplay, arquitectura de sistemas y visión del juego.",
+                        "Organización de pipelines de desarrollo, gestión de tareas y liderazgo de pequeños equipos de desarrollo.",
+                        "Representación del estudio y proyectos en eventos de videojuegos, exposiciones y espacios de networking dentro de la industria."
+                      ]
+                },
+                {
+                  role: "Game Developer & Lead Programmer",
+                  company: "Gamespiration",
+                  duration: lang === 'EN' ? "2024 - Present" : "2024 - Presente",
+                  points: lang === 'EN'
+                    ? [
+                        "Developed gameplay mechanics, game systems, and playable prototypes using Unity and C#.",
+                        "Served as Lead Programmer for the TOP FAITH project, a semi-finalist in the GameJam+ Brasil 2024.",
+                        "Implemented vehicle movement systems, procedural map generation, and collectible systems.",
+                        "Integrated VFX and optimized assets from the Unity Asset Store."
+                      ]
+                    : [
+                        "Desarrollo de mecánicas de gameplay, sistemas de juego y prototipos jugables utilizando Unity y C#.",
+                        "Lead Programmer del proyecto TOP FAITH, un arcade racer semifinalista en GameJam+ Brasil 2024.",
+                        "Implementación de sistemas de movimiento de vehículos, generación procedural de mapas y sistemas de coleccionables.",
+                        "Integración de VFX y optimización de assets provenientes de la Unity Asset Store."
+                      ]
+                },
+                {
+                  role: "Game Programmer",
+                  company: "Grupo XScorpions",
+                  duration: "Feb 2024 - Sep 2024",
+                  points: lang === 'EN'
+                    ? [
+                        "Developed gameplay mechanics for playable characters and NPCs using Unity 3D.",
+                        "Implemented dialogue systems, UI/UX, and interactive logic for video game prototypes.",
+                        "Optimized game performance and resolved technical issues.",
+                        "Participated in teaching and course development for video game development with Unity, teaching programming fundamentals and mechanics design."
+                      ]
+                    : [
+                        "Desarrollo de mecánicas de gameplay para personajes jugables y NPCs utilizando Unity 3D.",
+                        "Implementación de sistemas de diálogo, UI/UX y lógica interactiva para prototipos de videojuegos.",
+                        "Optimización del rendimiento del juego y resolución de problemas técnicos.",
+                        "Participación en la docencia y desarrollo de cursos de desarrollo de videojuegos con Unity, enseñando fundamentos de programación y diseño de mecánicas."
+                      ]
                 }
               ].map((exp, idx) => (
                 <div key={idx} className="relative pl-8 border-l-2 border-[#FFFF00]/30 group">
                   <div className="absolute w-3 h-3 bg-[#FFFF00] rounded-full -left-[7.5px] top-2 group-hover:scale-150 transition-transform shadow-neon-blue" />
-                  <h3 className="text-xl font-headline text-white">{exp.role}</h3>
+                  <h3 className="text-xl font-headline text-foreground">{exp.role}</h3>
                   <p className="font-code text-sm text-[#FFFF00] mb-3">{exp.company} // {exp.duration}</p>
                   <ul className="text-sm text-muted-foreground list-disc list-outside ml-4 space-y-1">
                     {exp.points.map((p, i) => <li key={i}>{p}</li>)}
@@ -184,12 +229,14 @@ export default function AboutPage() {
                   title: "Lic. Diseño y Desarrollo de Videojuegos",
                   ins: "Universidad San Luis Potosí",
                   duration: "2022 - 2026",
-                  details: "Especialización en arquitectura de sistemas. Proyecto de tesis enfocado en la simulación de un ecosistema complejo en Realidad Virtual."
+                  details: lang === 'EN'
+                    ? "Professional training focused on game design, gameplay programming, video game production, and project management."
+                    : "Formación profesional enfocada en game design, programación de gameplay, producción de videojuegos y gestión de proyectos."
                 }
               ].map((edu, idx) => (
                 <div key={idx} className="relative pl-8 border-l-2 border-secondary/30 group">
                   <div className="absolute w-3 h-3 bg-secondary rounded-full -left-[7.5px] top-2 group-hover:scale-150 transition-transform shadow-neon-magenta" />
-                  <h3 className="text-xl font-headline text-white">{edu.title}</h3>
+                  <h3 className="text-xl font-headline text-foreground">{edu.title}</h3>
                   <p className="font-code text-sm text-secondary mb-3">{edu.ins} // {edu.duration}</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">{edu.details}</p>
                 </div>
@@ -202,7 +249,7 @@ export default function AboutPage() {
         <section className="mt-24 border-t border-border/50 pt-16">
           <h2 className="text-3xl font-headline text-foreground mb-12 flex items-center gap-3">
             <Award className="text-[#FFFF00] w-7 h-7" /> 
-            {lang === 'EN' ? 'ARSENAL & SKILLS' : 'ARSENAL Y HABILIDADES'}
+            {lang === 'EN' ? 'SKILLS AND ABILITIES' : 'HABILIDADES Y DESTREZAS'}
           </h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 font-medium text-sm">
