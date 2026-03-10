@@ -289,7 +289,7 @@ export default function SpectraGxDashboard() {
                       className={`flex items-center gap-3 px-6 py-3 border border-border font-headline text-sm transition-all duration-300 active:scale-95 ${social.color}`}
                       style={{ clipPath: 'polygon(10% 0, 100% 0, 90% 100%, 0% 100%)' }}
                     >
-                      {React.cloneElement(social.icon as React.ReactElement, { className: 'w-5 h-5' })}
+                      {React.cloneElement(social.icon as React.ReactElement<any>, { className: 'w-5 h-5' })}
                       {social.label}
                     </Link>
                   ))}
