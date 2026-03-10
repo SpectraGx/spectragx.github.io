@@ -7,7 +7,7 @@ import { Footer } from '../components/ui/Footer';
 
 export const metadata: Metadata = {
   title: 'Fernando Mendoza | Portfolio',
-  description: 'Digital workspace of a game developer and programmer. Dark Pop-Grunge aesthetic.',
+  description: 'Fernando Mendoza Portfolio. Mexican Game Developer & Programmer specializing in crafting chaotic co-op experiences.',
 };
 
 export default function RootLayout({
