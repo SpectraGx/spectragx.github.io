@@ -35,7 +35,7 @@ export default function AboutPage() {
             <div className="relative aspect-square overflow-hidden rounded-md border-border border-2 shadow-2xl group">
               <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors z-10 mix-blend-overlay" />
               <Image 
-                src="/spec.png" 
+                src="/Spec.png" 
                 alt="Fernando Mendoza by @Lizeth.Guerrao" 
                 fill 
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700"

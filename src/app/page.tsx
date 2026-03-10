@@ -48,7 +48,7 @@ export default function SpectraGxDashboard() {
         ? "A chaotic cooperative time-management game where players act as alchemists, coordinating to prepare and deliver magical orders before time runs out."
         : "Un juego cooperativo caótico de gestión del tiempo donde los jugadores, como alquimistas, deben coordinarse para preparar y entregar órdenes mágicas antes de que el tiempo se agote.",
       tags: ["Unity", "C#", "Co-op"],
-      image: "/magicalflavour.png",
+      image: "/MagicalFlavour.png",
       videoHover: "/gameplay/magical-hover.mp4",
       imageHint: "Magical Flavour Frontpage",
       link: "https://spectragx.itch.io/magical-flavour"
@@ -60,7 +60,7 @@ export default function SpectraGxDashboard() {
         ? "A fast-paced platformer where you control a “bubble man” with a shotgun, descending an endless underwater abyss, collecting bubbles and pushing your distance record deeper."
         : "Un frenético plataformero donde controlas a un “bubble man” con escopeta mientras desciendes a un abismo submarino infinito, recolectando burbujas y superando tu propia distancia récord.",
       tags: ["Unity", "WebGL", "Game Jam"],
-      image: "/bubbleabyss.png",
+      image: "/BubbleAbyss.png",
       videoHover: "/gameplay/bubble-hover.mp4",
       imageHint: "BUBBLE ABYSS Frontpage",
       link: "https://elxavi.itch.io/bubble-abyss"
@@ -72,7 +72,7 @@ export default function SpectraGxDashboard() {
         ? "Speed, chaos, and plushies! Race through the most chaotic competition where you must accelerate, survive, and avoid exploding in a world full of adorable yet dangerous plushies."
         : "¡Velocidad, caos y peluches! Compite en la carrera más caótica, donde deberás acelerar, sobrevivir y evitar explotar en un mundo lleno de adorables y peligrosos plushies.",
       tags: ["Unity", "C#", "Kickstarter"],
-      image: "/plushout.png",
+      image: "/PlushOut.png",
       imageHint: "PlushOut Frontpage",
       link: "https://www.kickstarter.com/projects/plushcraftstudios/plushout"
     }
@@ -150,7 +150,7 @@ export default function SpectraGxDashboard() {
               <div className="absolute -inset-4 bg-primary/20 blur-2xl group-hover:bg-primary/30 transition-all duration-700" />
               <div className={`relative aspect-square overflow-hidden rounded-md border-4 rotate-3 hover:rotate-0 transition-transform duration-500 border-border shadow-2xl`}>
                 <Image 
-                  src="/spec.png" 
+                  src="/Spec.png" 
                   alt="Fernando Mendoza by @Lizeth.Guerrao" 
                   fill 
                   className={`object-cover ${theme === 'dark' ? 'grayscale hover:grayscale-0' : ''} transition-all duration-700`}
@@ -262,7 +262,7 @@ export default function SpectraGxDashboard() {
                   </Button>
                 </a>
                 <a 
-                  href={lang === 'EN' ? '/docs/cv-en.pdf' : '/docs/cv-es.pdf'}
+                  href={lang === 'EN' ? '/docs/CV-en.pdf' : '/docs/CV-es.pdf'}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

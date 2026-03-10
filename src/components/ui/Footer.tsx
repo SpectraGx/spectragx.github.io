@@ -12,7 +12,7 @@ export const Footer = () => {
         <div className="flex flex-1 items-center justify-center md:justify-start gap-2">
           <div className="relative w-6 h-6">
             <Image 
-              src="/specico.png" 
+              src="/Specico.png" 
               alt="Logo" 
               fill 
               className="object-contain"

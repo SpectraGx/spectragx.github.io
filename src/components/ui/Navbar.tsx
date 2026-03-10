@@ -15,7 +15,7 @@ export const Navbar = () => {
       <Link href="/" className="font-headline text-xl tracking-tighter flex items-center gap-2 group">
         <div className="relative w-8 h-8 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
           <Image 
-            src="/specico.png" 
+            src="/Specico.png" 
             alt="Logo" 
             fill 
             className={`object-cover rounded-sm ${theme === 'dark' ? 'grayscale hover:grayscale-0' : ''} transition-all duration-700`}

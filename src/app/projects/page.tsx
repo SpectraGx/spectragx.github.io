@@ -149,7 +149,7 @@ export default function ProjectsPage() {
         "Exhibido en la Game Conference MX (Oct 2025)."
       ],
       tech: ["Unity", "C#", "Co-op Local", "Git"],
-      image: "/magicalflavour.png", 
+      image: "/MagicalFlavour.png", 
       videoHover: "/gameplay/magical-hover.mp4",
       link: "https://spectragx.itch.io/magical-flavour",
       repo: "#"
@@ -175,7 +175,7 @@ export default function ProjectsPage() {
         "Sistema de eliminación por tiempo."
       ],
       tech: ["Unity", "C#", "Physics", "Arcade", "Co-op Local", "Kickstarter", "Git"],
-      image: "/plushout.png",
+      image: "/PlushOut.png",
       imageHover: "/screens/plush.png", 
       link: "https://www.kickstarter.com/projects/plushcraftstudios/plushout",
       repo: "#"
@@ -213,7 +213,7 @@ export default function ProjectsPage() {
       title: "BUBBLE ABYSS",
       description: lang === 'EN' ? "A frantic platformer where you descend into an infinite submarine abyss." : "Frenético plataformero descendiendo en un abismo submarino infinito.",
       tags: ["Unity", "WebGL", "GGJ"],
-      image: "/bubbleAbyss.png", 
+      image: "/BubbleAbyss.png", 
       link: "https://elxavi.itch.io/bubble-abyss"
     },
     {
@@ -237,7 +237,7 @@ export default function ProjectsPage() {
       title: "Super Exoplanet Maker",
       description: lang === 'EN' ? "Create and explore your own exoplanets in this space sandbox." : "Crea y explora tus propios exoplanetas en este sandbox espacial.",
       tags: ["Unity", "Game Jam", "Space"],
-      image: "/super.jpg",
+      image: "/Super.jpg",
       link: "https://kalsetas.itch.io/super-planet-maker"
     },
     {
@@ -245,7 +245,7 @@ export default function ProjectsPage() {
       title: "Execute Who?",
       description: lang === 'EN' ? "A cooperative game where one player describes suspects while the other identifies the culprit." : "Un juego cooperativo donde un jugador describe a los sospechosos mientras el otro identifica al culpable.",
       tags: ["Unity", "Co-op", "Game Jam"],
-      image: "/execute.png",
+      image: "/Execute.png",
       link: "https://spectragx.itch.io/execute-who"
     },
     {
@@ -253,7 +253,7 @@ export default function ProjectsPage() {
       title: "Feather Thieve",
       description: lang === 'EN' ? "Help Pistacho escape a dark warehouse, overcoming obstacles and freeing trapped birds." : "Ayuda a Pistacho a escapar de un oscuro almacén, resolviendo obstáculos y liberando aves.",
       tags: ["Unity", "Adventure", "Prototype"],
-      image: "/feather-thieve.png",
+      image: "/Feather-Thieve.png",
       link: "https://spectragx.itch.io/feather-thieve"
     },
     {
