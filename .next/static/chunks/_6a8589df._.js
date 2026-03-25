@@ -409,12 +409,12 @@ const FeaturedProject = (param)=>{
                             children: project.duration
                         }, void 0, false, {
                             fileName: "[project]/src/app/projects/page.tsx",
-                            lineNumber: 42,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -424,7 +424,7 @@ const FeaturedProject = (param)=>{
                         className: "object-cover transition-all duration-700 z-0 \n            ".concat(!hasHoverMedia ? 'group-hover/project:scale-105' : '', "\n            ").concat(isHovered && hasHoverMedia ? 'opacity-0' : theme === 'dark' ? 'opacity-80' : 'opacity-100', "\n          ")
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 46,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     project.imageHover && !project.videoHover && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -434,7 +434,7 @@ const FeaturedProject = (param)=>{
                         className: "object-cover transition-opacity duration-500 z-10 ".concat(isHovered ? 'opacity-100' : 'opacity-0')
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 58,
+                        lineNumber: 59,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     project.videoHover && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
@@ -447,13 +447,13 @@ const FeaturedProject = (param)=>{
                         className: "absolute inset-0 w-full h-full object-cover transition-opacity duration-500 z-10 ".concat(isHovered ? 'opacity-100' : 'opacity-0')
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 68,
+                        lineNumber: 69,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 36,
+                lineNumber: 37,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -466,7 +466,7 @@ const FeaturedProject = (param)=>{
                                 children: project.title
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 80,
+                                lineNumber: 81,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -479,7 +479,7 @@ const FeaturedProject = (param)=>{
                                                 className: "w-4 h-4 text-secondary"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/projects/page.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 83,
                                                 columnNumber: 55
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             " ",
@@ -487,7 +487,7 @@ const FeaturedProject = (param)=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/projects/page.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 83,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -497,7 +497,7 @@ const FeaturedProject = (param)=>{
                                                 className: "w-4 h-4 text-accent"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/projects/page.tsx",
-                                                lineNumber: 83,
+                                                lineNumber: 84,
                                                 columnNumber: 55
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             " ",
@@ -505,19 +505,19 @@ const FeaturedProject = (param)=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/projects/page.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 81,
+                                lineNumber: 82,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 79,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -525,7 +525,7 @@ const FeaturedProject = (param)=>{
                         children: project.description
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 87,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -535,7 +535,7 @@ const FeaturedProject = (param)=>{
                                 children: lang === 'EN' ? 'Key Features:' : 'Características Clave:'
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 92,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -544,18 +544,18 @@ const FeaturedProject = (param)=>{
                                         children: feature
                                     }, i, false, {
                                         fileName: "[project]/src/app/projects/page.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 96,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 93,
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 91,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -566,12 +566,12 @@ const FeaturedProject = (param)=>{
                                 children: tech
                             }, tech, false, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 102,
+                                lineNumber: 103,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)))
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 100,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -590,18 +590,18 @@ const FeaturedProject = (param)=>{
                                             className: "w-4 h-4 ml-2"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/projects/page.tsx",
-                                            lineNumber: 110,
+                                            lineNumber: 111,
                                             columnNumber: 70
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/projects/page.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 110,
                                     columnNumber: 11
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 108,
+                                lineNumber: 109,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             project.repo !== "#" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -618,36 +618,36 @@ const FeaturedProject = (param)=>{
                                             className: "w-4 h-4 ml-2"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/projects/page.tsx",
-                                            lineNumber: 116,
+                                            lineNumber: 117,
                                             columnNumber: 65
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/projects/page.tsx",
-                                    lineNumber: 115,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 114,
+                                lineNumber: 115,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 107,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 78,
+                lineNumber: 79,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/projects/page.tsx",
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -680,7 +680,7 @@ function ProjectsPage() {
                 "Co-op Local",
                 "Git"
             ],
-            image: "/magicalflavour.png",
+            image: "/MagicalFlavour.png",
             videoHover: "/gameplay/magical-hover.mp4",
             link: "https://spectragx.itch.io/magical-flavour",
             repo: "#"
@@ -712,7 +712,7 @@ function ProjectsPage() {
                 "Kickstarter",
                 "Git"
             ],
-            image: "/plushout.png",
+            image: "/PlushOut.png",
             imageHover: "/screens/plush.png",
             link: "https://www.kickstarter.com/projects/plushcraftstudios/plushout",
             repo: "#"
@@ -757,7 +757,7 @@ function ProjectsPage() {
                 "WebGL",
                 "GGJ"
             ],
-            image: "/bubbleAbyss.png",
+            image: "/BubbleAbyss.png",
             link: "https://elxavi.itch.io/bubble-abyss"
         },
         {
@@ -786,6 +786,18 @@ function ProjectsPage() {
         },
         {
             id: 104,
+            title: "Entre lineas",
+            description: lang === 'EN' ? "Dreams, strunggles, and microaggressions in a game developer's life." : "Sueños, obstáculos y micromachismos en la vida de una desarrollador de videojuegos.",
+            tags: [
+                "Unity",
+                "Visual Novel",
+                "2D"
+            ],
+            image: "/Entre-lineas.png",
+            link: "https://spectragx.itch.io/entre-lineas"
+        },
+        {
+            id: 105,
             title: "Super Exoplanet Maker",
             description: lang === 'EN' ? "Create and explore your own exoplanets in this space sandbox." : "Crea y explora tus propios exoplanetas en este sandbox espacial.",
             tags: [
@@ -793,11 +805,11 @@ function ProjectsPage() {
                 "Game Jam",
                 "Space"
             ],
-            image: "/super.jpg",
+            image: "/Super.jpg",
             link: "https://kalsetas.itch.io/super-planet-maker"
         },
         {
-            id: 105,
+            id: 106,
             title: "Execute Who?",
             description: lang === 'EN' ? "A cooperative game where one player describes suspects while the other identifies the culprit." : "Un juego cooperativo donde un jugador describe a los sospechosos mientras el otro identifica al culpable.",
             tags: [
@@ -805,11 +817,11 @@ function ProjectsPage() {
                 "Co-op",
                 "Game Jam"
             ],
-            image: "/execute.png",
+            image: "/Execute.png",
             link: "https://spectragx.itch.io/execute-who"
         },
         {
-            id: 106,
+            id: 107,
             title: "Feather Thieve",
             description: lang === 'EN' ? "Help Pistacho escape a dark warehouse, overcoming obstacles and freeing trapped birds." : "Ayuda a Pistacho a escapar de un oscuro almacén, resolviendo obstáculos y liberando aves.",
             tags: [
@@ -817,11 +829,11 @@ function ProjectsPage() {
                 "Adventure",
                 "Prototype"
             ],
-            image: "/feather-thieve.png",
+            image: "/Feather-Thieve.png",
             link: "https://spectragx.itch.io/feather-thieve"
         },
         {
-            id: 107,
+            id: 108,
             title: "Chronomaniac",
             description: lang === 'EN' ? "Fast-paced roguelite about time travel, fighting enemies and anomalies in procedurally generated levels." : "Roguelite frenético sobre viajes en el tiempo, enfrentando enemigos y anomalías en niveles generados proceduralmente.",
             tags: [
@@ -840,14 +852,14 @@ function ProjectsPage() {
                 className: "fixed inset-0 texture-halftone pointer-events-none opacity-40 z-0"
             }, void 0, false, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 272,
+                lineNumber: 281,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "fixed inset-0 diagonal-lines pointer-events-none z-0"
             }, void 0, false, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 273,
+                lineNumber: 282,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -866,13 +878,13 @@ function ProjectsPage() {
                                         children: "DESTACADOS"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/projects/page.tsx",
-                                        lineNumber: 280,
+                                        lineNumber: 289,
                                         columnNumber: 57
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 279,
+                                lineNumber: 288,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -880,13 +892,13 @@ function ProjectsPage() {
                                 children: lang === 'EN' ? "A deep dive into the architecture, mechanics, and chaos behind my most significant game development projects." : "Una inmersión profunda en la arquitectura, mecánicas y el caos detrás de mis proyectos de desarrollo más significativos."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 282,
+                                lineNumber: 291,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 278,
+                        lineNumber: 287,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -898,12 +910,12 @@ function ProjectsPage() {
                                 theme: theme
                             }, project.id, false, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 292,
+                                lineNumber: 301,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 290,
+                        lineNumber: 299,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -922,13 +934,13 @@ function ProjectsPage() {
                                                 children: "GAME JAMS"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/projects/page.tsx",
-                                                lineNumber: 300,
+                                                lineNumber: 309,
                                                 columnNumber: 77
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/projects/page.tsx",
-                                        lineNumber: 299,
+                                        lineNumber: 308,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -936,13 +948,13 @@ function ProjectsPage() {
                                         children: lang === 'EN' ? "Technical explorations, weekend prototypes, and creative experiments. Click to play on Itch.io." : "Exploraciones técnicas, prototipos de fin de semana y experimentos creativos. Haz clic para jugarlos en Itch.io."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/projects/page.tsx",
-                                        lineNumber: 302,
+                                        lineNumber: 311,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 298,
+                                lineNumber: 307,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -953,30 +965,30 @@ function ProjectsPage() {
                                         theme: theme
                                     }, project.id, false, {
                                         fileName: "[project]/src/app/projects/page.tsx",
-                                        lineNumber: 311,
+                                        lineNumber: 320,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/page.tsx",
-                                lineNumber: 309,
+                                lineNumber: 318,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 297,
+                        lineNumber: 306,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 275,
+                lineNumber: 284,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/projects/page.tsx",
-        lineNumber: 270,
+        lineNumber: 279,
         columnNumber: 5
     }, this);
 }

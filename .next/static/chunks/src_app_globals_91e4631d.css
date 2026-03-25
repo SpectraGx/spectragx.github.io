@@ -500,10 +500,6 @@ h1, h2, h3, h4, h5, h6 {
   pointer-events: auto;
 }
 
-.invisible {
-  visibility: hidden;
-}
-
 .fixed {
   position: fixed;
 }
@@ -590,10 +586,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .left-0 {
   left: 0;
-}
-
-.left-1 {
-  left: .25rem;
 }
 
 .left-1\/2 {
@@ -1123,10 +1115,6 @@ h1, h2, h3, h4, h5, h6 {
   caption-side: bottom;
 }
 
-.border-collapse {
-  border-collapse: collapse;
-}
-
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1346,12 +1334,6 @@ h1, h2, h3, h4, h5, h6 {
   --tw-space-y-reverse: 0;
   margin-top: calc(8rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(8rem * var(--tw-space-y-reverse));
-}
-
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -1719,10 +1701,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem;
 }
 
-.p-3 {
-  padding: .75rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -1868,10 +1846,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 0;
 }
 
-.pt-1 {
-  padding-top: .25rem;
-}
-
 .pt-16 {
   padding-top: 4rem;
 }
@@ -1957,10 +1931,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-.text-\[0\.8rem\] {
-  font-size: .8rem;
-}
-
 .text-\[10px\] {
   font-size: 10px;
 }
@@ -1992,10 +1962,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .font-semibold {
@@ -2594,14 +2560,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 2px;
 }
 
-.focus-within\:relative:focus-within {
-  position: relative;
-}
-
-.focus-within\:z-20:focus-within {
-  z-index: 20;
-}
-
 .hover\:-translate-y-2:hover {
   --tw-translate-y: -.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2700,10 +2658,6 @@ h1, h2, h3, h4, h5, h6 {
   color: hsl(var(--primary));
 }
 
-.hover\:text-primary-foreground:hover {
-  color: hsl(var(--primary-foreground));
-}
-
 .hover\:text-sidebar-accent-foreground:hover {
   color: hsl(var(--sidebar-accent-foreground));
 }
@@ -2742,16 +2696,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: hsl(var(--accent));
 }
 
-.focus\:bg-primary:focus {
-  background-color: hsl(var(--primary));
-}
-
 .focus\:text-accent-foreground:focus {
   color: hsl(var(--accent-foreground));
-}
-
-.focus\:text-primary-foreground:focus {
-  color: hsl(var(--primary-foreground));
 }
 
 .focus\:opacity-100:focus {
@@ -2943,26 +2889,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .aria-disabled\:opacity-50[aria-disabled="true"] {
   opacity: .5;
-}
-
-.aria-selected\:bg-accent[aria-selected="true"] {
-  background-color: hsl(var(--accent));
-}
-
-.aria-selected\:bg-accent\/50[aria-selected="true"] {
-  background-color: hsl(var(--accent) / .5);
-}
-
-.aria-selected\:text-accent-foreground[aria-selected="true"] {
-  color: hsl(var(--accent-foreground));
-}
-
-.aria-selected\:text-muted-foreground[aria-selected="true"] {
-  color: hsl(var(--muted-foreground));
-}
-
-.aria-selected\:opacity-100[aria-selected="true"] {
-  opacity: 1;
 }
 
 .data-\[disabled\]\:pointer-events-none[data-disabled] {
@@ -3420,18 +3346,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: calc(.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .sm\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1rem * var(--tw-space-x-reverse));
-    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
   .sm\:rounded-lg {
     border-radius: var(--radius);
   }
@@ -3623,29 +3537,6 @@ h1, h2, h3, h4, h5, h6 {
   .lg\:flex-row-reverse {
     flex-direction: row-reverse;
   }
-}
-
-.\[\&\:has\(\[aria-selected\]\)\]\:bg-accent:has([aria-selected]) {
-  background-color: hsl(var(--accent));
-}
-
-.first\:\[\&\:has\(\[aria-selected\]\)\]\:rounded-l-md:has([aria-selected]):first-child {
-  border-top-left-radius: calc(var(--radius)  - 2px);
-  border-bottom-left-radius: calc(var(--radius)  - 2px);
-}
-
-.last\:\[\&\:has\(\[aria-selected\]\)\]\:rounded-r-md:has([aria-selected]):last-child {
-  border-top-right-radius: calc(var(--radius)  - 2px);
-  border-bottom-right-radius: calc(var(--radius)  - 2px);
-}
-
-.\[\&\:has\(\[aria-selected\]\.day-outside\)\]\:bg-accent\/50:has([aria-selected].day-outside) {
-  background-color: hsl(var(--accent) / .5);
-}
-
-.\[\&\:has\(\[aria-selected\]\.day-range-end\)\]\:rounded-r-md:has([aria-selected].day-range-end) {
-  border-top-right-radius: calc(var(--radius)  - 2px);
-  border-bottom-right-radius: calc(var(--radius)  - 2px);
 }
 
 .\[\&\:has\(\[role\=checkbox\]\)\]\:pr-0:has([role="checkbox"]) {

@@ -7,6 +7,7 @@ import { ExternalLink, Github, Calendar, Clock } from "lucide-react";
 import { useState, useRef } from "react";
 import { ProjectCard } from '@/components/ui/ProjectCard'; 
 import { useAppContext } from '@/context/AppContext';
+import { Description } from "@radix-ui/react-toast";
 
 // --- SUB-COMPONENTE: PROYECTO DESTACADO---
 const FeaturedProject = ({ project, lang, index, theme }: any) => {
@@ -234,6 +235,14 @@ export default function ProjectsPage() {
     },
     {
       id: 104,
+      title: "Entre lineas",
+      description: lang === 'EN' ? "Dreams, strunggles, and microaggressions in a game developer's life." : "Sueños, obstáculos y micromachismos en la vida de una desarrollador de videojuegos.",
+      tags: ["Unity", "Visual Novel", "2D" ],
+      image: "/Entre-lineas.png",
+      link: "https://spectragx.itch.io/entre-lineas"
+    },
+    {
+      id: 105,
       title: "Super Exoplanet Maker",
       description: lang === 'EN' ? "Create and explore your own exoplanets in this space sandbox." : "Crea y explora tus propios exoplanetas en este sandbox espacial.",
       tags: ["Unity", "Game Jam", "Space"],
@@ -241,7 +250,7 @@ export default function ProjectsPage() {
       link: "https://kalsetas.itch.io/super-planet-maker"
     },
     {
-      id: 105,
+      id: 106,
       title: "Execute Who?",
       description: lang === 'EN' ? "A cooperative game where one player describes suspects while the other identifies the culprit." : "Un juego cooperativo donde un jugador describe a los sospechosos mientras el otro identifica al culpable.",
       tags: ["Unity", "Co-op", "Game Jam"],
@@ -249,7 +258,7 @@ export default function ProjectsPage() {
       link: "https://spectragx.itch.io/execute-who"
     },
     {
-      id: 106,
+      id: 107,
       title: "Feather Thieve",
       description: lang === 'EN' ? "Help Pistacho escape a dark warehouse, overcoming obstacles and freeing trapped birds." : "Ayuda a Pistacho a escapar de un oscuro almacén, resolviendo obstáculos y liberando aves.",
       tags: ["Unity", "Adventure", "Prototype"],
@@ -257,7 +266,7 @@ export default function ProjectsPage() {
       link: "https://spectragx.itch.io/feather-thieve"
     },
     {
-      id: 107,
+      id: 108,
       title: "Chronomaniac",
       description: lang === 'EN' ? "Fast-paced roguelite about time travel, fighting enemies and anomalies in procedurally generated levels." : "Roguelite frenético sobre viajes en el tiempo, enfrentando enemigos y anomalías en niveles generados proceduralmente.",
       tags: ["Unity", "Roguelite", "Prototype"],

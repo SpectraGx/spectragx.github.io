@@ -410,7 +410,7 @@ function SpectraGxDashboard() {
                 "C#",
                 "Co-op"
             ],
-            image: "/magicalflavour.png",
+            image: "/MagicalFlavour.png",
             videoHover: "/gameplay/magical-hover.mp4",
             imageHint: "Magical Flavour Frontpage",
             link: "https://spectragx.itch.io/magical-flavour"
@@ -424,7 +424,7 @@ function SpectraGxDashboard() {
                 "WebGL",
                 "Game Jam"
             ],
-            image: "/bubbleabyss.png",
+            image: "/BubbleAbyss.png",
             videoHover: "/gameplay/bubble-hover.mp4",
             imageHint: "BUBBLE ABYSS Frontpage",
             link: "https://elxavi.itch.io/bubble-abyss"
@@ -438,7 +438,7 @@ function SpectraGxDashboard() {
                 "C#",
                 "Kickstarter"
             ],
-            image: "/plushout.png",
+            image: "/PlushOut.png",
             imageHint: "PlushOut Frontpage",
             link: "https://www.kickstarter.com/projects/plushcraftstudios/plushout"
         }
@@ -725,7 +725,7 @@ function SpectraGxDashboard() {
                                             className: `relative aspect-square overflow-hidden rounded-md border-4 rotate-3 hover:rotate-0 transition-transform duration-500 border-border shadow-2xl`,
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/spec.png",
+                                                    src: "/Spec.png",
                                                     alt: "Fernando Mendoza by @Lizeth.Guerrao",
                                                     fill: true,
                                                     className: `object-cover ${theme === 'dark' ? 'grayscale hover:grayscale-0' : ''} transition-all duration-700`
@@ -1136,7 +1136,7 @@ function SpectraGxDashboard() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: lang === 'EN' ? '/docs/cv-en.pdf' : '/docs/cv-es.pdf',
+                                                href: lang === 'EN' ? '/docs/CV-en.pdf' : '/docs/CV-es.pdf',
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
