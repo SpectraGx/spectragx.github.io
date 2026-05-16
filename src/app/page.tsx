@@ -73,6 +73,7 @@ export default function SpectraGxDashboard() {
         : "¡Velocidad, caos y peluches! Compite en la carrera más caótica, donde deberás acelerar, sobrevivir y evitar explotar en un mundo lleno de adorables y peligrosos plushies.",
       tags: ["Unity", "C#", "Kickstarter"],
       image: "/PlushOut.png",
+      videoHover: "/gameplay/teaser_plush.mp4",
       imageHint: "PlushOut Frontpage",
       link: "https://www.kickstarter.com/projects/plushcraftstudios/plushout"
     }

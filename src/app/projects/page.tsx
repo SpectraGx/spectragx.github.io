@@ -177,6 +177,7 @@ export default function ProjectsPage() {
       ],
       tech: ["Unity", "C#", "Physics", "Arcade", "Co-op Local", "Kickstarter", "Git"],
       image: "/PlushOut.png",
+      videoHover: "/gameplay/teaser_plush.mp4",
       imageHover: "/screens/plush.png", 
       link: "https://www.kickstarter.com/projects/plushcraftstudios/plushout",
       repo: "#"
